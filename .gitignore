@@ -1,0 +1,87 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+# Arquivos de log gerados pelo Spring Boot
+logs/
+*.log
+!logs/.gitkeep
+
+# Arquivos de classe compilados, gerados pela build (Maven ou Gradle)
+### Maven ###
+target/
+
+### Gradle ###
+build/
+.gradle/
+
+# Arquivos temporários e de cache da IDE
+### Eclipse ###
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath
+.springBeans
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+/out/
+.vscode/
+
+### VS Code (usado para Java com Spring) ###
+.vscode/
+.settings/
+
+# Arquivos específicos do sistema operacional (macOS e Windows)
+.DS_Store
+Thumbs.db
+
+# Ignora dependências do Maven baixadas localmente
+.m2/repository/
+
+# Configurações sensíveis (opcional, mas recomendado)
+# Adicione aqui arquivos como application.properties, application.yml ou .env que contêm segredos
+# Exemplo:
+# src/main/resources/application.properties
+# src/main/resources/application-prod.yml
+
+# Outros arquivos temporários
+**/*.class
+**/*.jar
+**/*.war
+**/*.zip
